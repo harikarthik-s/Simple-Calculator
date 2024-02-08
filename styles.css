@@ -28,7 +28,7 @@
 h1{
     margin-bottom: 1.5%;
     color: #fff;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .box{
@@ -40,12 +40,13 @@ h1{
     border-radius: 1.5rem;
     padding: 20px 8px;
     background-color: rgb(20, 19, 19);
-    transition: 0.8s;
+    filter: drop-shadow(10px 10px 10px #7a7979ef);
+    transition: 0.3s;
 }
 
 .box:hover{
-    transform: scale(1.03);
-    filter: drop-shadow(0 0 10px #7a7979c3);
+    transform: scale(0.98);
+    filter: drop-shadow(20px 20px 15px #7a7979c3);
     transition: 0.3s;
 }
 
@@ -91,8 +92,10 @@ input {
 input[type="text"] {
     background-color: rgb(253, 255, 254);
     color: black;
+    font-weight: 600;
     width: 222.5px;
     cursor: auto;
+
 }
 
 input[type="button"]:hover {
@@ -104,7 +107,7 @@ input[type="button"]:hover {
 #clear-button {
     color: #fff;
     background-color: rgb(255, 42, 42);
-    transition: .3s;
+    font-weight: 600;
 }
 
 #clear-button:hover {
@@ -112,12 +115,11 @@ input[type="button"]:hover {
 }
 
 #evaluate {
-    background-color: green;
-    transition: .3s;
+    background-color: rgb(18, 201, 18);
+    font-weight: 600;
 }
 
 #evaluate:hover {
     transform: scale(1.1);
-    transition: .3s;
 }
 
